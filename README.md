@@ -1,26 +1,28 @@
-\# PBO LKS — Portofolio Praktikum
+# PBO LKS - REST API Perpustakaan
 
-\- Nama : Aiffy Ragta Aqilla
+## Identitas Mahasiswa
+- Nama: Aiffy Ragta Aqilla
+- NIM: H1101251055
+- Kelas: A
+- Mata Kuliah: Pemrograman Berbasis Objek (PBO)
+- Dosen: Syahru Rahmayuda, M.Kom
 
-\- NIM : H1101251055
+## Fitur Aplikasi
+- REST API Perpustakaan (PHP Modern, PSR-4, MVC).
+- CRUD Buku & CRUD Kategori.
+- Frontend SPA (Single Page Application) menggunakan Tailwind CSS & Vanilla JS.
+- Integrasi backend dan frontend.
 
-\- Kelas: (isi kelasmu)
+## Cara Menjalankan Proyek
+Proyek ini terdiri dari dua bagian: Backend (REST API) dan Frontend (UI).
 
+1. Jalankan Backend (Terminal 1):
+cd rest-api-perpustakaan
+php -S localhost:8000 -t public
 
+2. Jalankan Frontend (Terminal 2):
+cd frontend-perpustakaan
+php -S localhost:3000
 
-\## Daftar Pertemuan
-
-\- \[ ] Pertemuan 1 — Setup \& Database
-
-\- \[ ] Pertemuan 2 — Core OOP
-
-\- \[ ] Pertemuan 3 — Framework \& Routing
-
-\- \[ ] Pertemuan 4 — Testing Backend
-
-\- \[ ] Pertemuan 5 — CRUD Kategori
-
-\- \[ ] Pertemuan 6 — Frontend
-
-\- \[ ] Pertemuan 7 — Integrasi \& Finalisasi
-
+3. Buka di Browser:
+Akses http://localhost:3000
